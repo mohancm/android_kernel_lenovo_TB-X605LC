@@ -1,0 +1,9 @@
+menu "DTV"
+
+config DTV_FC8300
+	tristate "DTV FC8300 driver" 
+	depends on SPI
+	help
+	  This driver is DTV FC8300W driver. Say Y here if you want to build a driver for fc8300.
+
+endmenu
